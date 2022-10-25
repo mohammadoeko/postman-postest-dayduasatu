@@ -1,6 +1,6 @@
 ## JUARACODING REST API TESTING
 ### GET Data ID
-![alt text](screenshot/GetData.png)
+![alt text](screenshot/GetDataId.png)
 ### POST Add Data
 ![alt text](screenshot/AddData.png)
 ### PUT Data
