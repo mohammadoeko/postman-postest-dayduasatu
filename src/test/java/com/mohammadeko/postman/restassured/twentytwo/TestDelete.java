@@ -1,8 +1,12 @@
 package com.mohammadeko.postman.restassured.twentytwo;
 
+import org.hamcrest.Matchers;
 import org.testng.annotations.Test;
 
+import java.util.Collections;
+
 import static io.restassured.RestAssured.*;
+import static org.hamcrest.Matchers.*;
 
 public class TestDelete {
 
@@ -22,6 +26,7 @@ public class TestDelete {
         given()
                 .get(endpoint)
                 .then()
-                .statusCode(200);
+                .statusCode(200)
+                .body(notNullValue(), equalTo("null"));
     }
 }
