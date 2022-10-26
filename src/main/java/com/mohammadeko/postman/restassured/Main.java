@@ -1,4 +1,4 @@
-package com.mohammadeko.postman;
+package com.mohammadeko.postman.restassured;
 
 public class Main {
     public static void main(String[] args) {
