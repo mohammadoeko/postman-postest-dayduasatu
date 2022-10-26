@@ -30,6 +30,6 @@ public class TestGetList {
                 .get(endpoint)
                 .then()
                 .statusCode(200)
-                .body("_id[0]", equalTo("62e20bdef0e24546b900e041"));
+                .body("_id[6]", equalTo("62e21044f0e24546b900e05b"));
     }
 }
